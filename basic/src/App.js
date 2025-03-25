@@ -2,7 +2,7 @@
 
 function App() {
   return (
-    <h1>Hello Amit Kumar</h1>
+    <h1>Hello World!</h1>
   );
 }
 
