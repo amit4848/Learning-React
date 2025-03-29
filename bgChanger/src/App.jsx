@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
-  //const [color, setcolor] = useState("salmon")
   // the color resets when you refresh the page.
   // This happens because the state is not persistent—when you reload,
   // the component re-renders with its default state.
