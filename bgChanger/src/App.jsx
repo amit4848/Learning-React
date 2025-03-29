@@ -15,6 +15,10 @@ function App() {
   useEffect(() => {
     localStorage.setItem("color", color);
   }, [color]);
+
+  // in button if you write
+  // onClick={setcolor("red")}  you will get error setcolor("red") return something 
+  // and onclick={take curly braces part of function}
   return (
     <div
       className="w-full h-screen duration-200"
